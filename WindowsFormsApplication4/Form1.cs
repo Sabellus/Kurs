@@ -294,7 +294,7 @@ namespace WindowsFormsApplication4
                 ICollection<string> keys1 = printlit[i].Keys;
                 foreach(string j in keys1)
                 {
-                    //MessageBox.Show((printlit[i][j] as EducLiter).Specialty);
+                    //MessageBox.Show((printlit[i][j] as EducLiter).Specialty);//
                 }
             }
             fs.Close();
